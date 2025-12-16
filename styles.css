@@ -39,6 +39,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+html,
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
@@ -119,14 +120,15 @@ header {
 .tabs {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* Reduced gap slightly for better packing on small screens */
     margin-bottom: 32px;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 8px;
-    border-radius: 30px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 20px;
+    /* Reducing radius slightly for multi-row look */
+    width: 100%;
 }
 
 .tab-btn {
