@@ -42,6 +42,7 @@
 html,
 body {
     background-color: var(--bg-color);
+    overflow-x: hidden;
     color: var(--text-primary);
     font-family: var(--font-sans);
     min-height: 100vh;
@@ -142,6 +143,7 @@ header {
     transition: all 0.3s;
     font-family: var(--font-sans);
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .tab-btn.active {
