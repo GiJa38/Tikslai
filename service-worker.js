@@ -1,5 +1,5 @@
 // Service Worker for "Mano Tikslai" PWA
-const CACHE_NAME = 'tikslai-v5'; // Versioned cache to force update
+const CACHE_NAME = 'tikslai-cache-v6'; // Versioned cache to force update
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
